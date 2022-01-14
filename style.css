@@ -16,7 +16,7 @@ body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
 }
-header{
+header, main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +37,19 @@ li{
 }
 a{
     text-decoration: none;
+}
+h3{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.87);
 }
 /*================================*/
 /* ==== Reuseable components ==== */
@@ -133,3 +146,65 @@ a{
     border-bottom: 1px solid#AAAAAA;
     padding: 35px 0;
 }
+/*================================*/
+/* ==== Header Section ==== */
+/* =============================== */
+/* === Product Section === */
+.product-section{
+    margin-bottom: 100px;
+}
+.product-heading{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.products-grid{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.product{
+    padding: 20px 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow:  0px 5px 20px 2px #AAA;
+}
+.rating > i{
+    font-size: 12px;
+    color: #FB8200;
+}
+.rating > span{
+    color: #5E6366;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 8px;
+}
+.product-description{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #787885;
+}
+.see-more-btn{
+    text-align: right;
+}
+.see-more-btn a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more-btn > a > span{
+    margin-left: 8px;
+}
+
+
+
