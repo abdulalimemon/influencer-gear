@@ -113,6 +113,11 @@ h4{
     line-height: 24px;
     padding: 10px 24px;
     display: inline-block;
+    transition: all 2s;
+}
+.banner-btn:hover{
+    padding: 10px 45px;
+    border-radius: 30px;
 }
 .banner-btn > span{
     margin-left: 8px;
@@ -151,6 +156,7 @@ h4{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 30px;
+    justify-content: center;
 }
 .product{
     padding: 20px 15px;
@@ -318,6 +324,7 @@ footer{
     }
     .products-grid {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
     .subscribe-icon > i {
         font-size: 100px;
